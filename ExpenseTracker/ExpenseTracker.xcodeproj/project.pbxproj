@@ -11,6 +11,9 @@
 		2FBFAF1C2C9892D30045B8C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF1B2C9892D30045B8C4 /* ContentView.swift */; };
 		2FBFAF1E2C9892D40045B8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBFAF1D2C9892D40045B8C4 /* Assets.xcassets */; };
 		2FBFAF212C9892D40045B8C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBFAF202C9892D40045B8C4 /* Preview Assets.xcassets */; };
+		2FBFAF282C9893480045B8C4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF272C9893480045B8C4 /* MainTabView.swift */; };
+		2FBFAF2A2C9A12E40045B8C4 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF292C9A12E40045B8C4 /* CustomTabBarView.swift */; };
+		2FBFAF2C2C9A130E0045B8C4 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF2B2C9A130E0045B8C4 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2FBFAF1B2C9892D30045B8C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FBFAF1D2C9892D40045B8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FBFAF202C9892D40045B8C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FBFAF272C9893480045B8C4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2FBFAF292C9A12E40045B8C4 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		2FBFAF2B2C9A130E0045B8C4 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				2FBFAF192C9892D30045B8C4 /* ExpenseTrackerApp.swift */,
 				2FBFAF1B2C9892D30045B8C4 /* ContentView.swift */,
+				2FBFAF272C9893480045B8C4 /* MainTabView.swift */,
+				2FBFAF292C9A12E40045B8C4 /* CustomTabBarView.swift */,
+				2FBFAF2B2C9A130E0045B8C4 /* Tab.swift */,
 				2FBFAF1D2C9892D40045B8C4 /* Assets.xcassets */,
 				2FBFAF1F2C9892D40045B8C4 /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				2FBFAF1C2C9892D30045B8C4 /* ContentView.swift in Sources */,
 				2FBFAF1A2C9892D30045B8C4 /* ExpenseTrackerApp.swift in Sources */,
+				2FBFAF2C2C9A130E0045B8C4 /* Tab.swift in Sources */,
+				2FBFAF282C9893480045B8C4 /* MainTabView.swift in Sources */,
+				2FBFAF2A2C9A12E40045B8C4 /* CustomTabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
