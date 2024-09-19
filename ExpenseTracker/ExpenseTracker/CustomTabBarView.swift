@@ -92,7 +92,7 @@ struct SelectedTabCircleView: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 17)
+            RoundedRectangle(cornerRadius: 14)
                 .fill(.white)
                 .frame(width: 50, height: 50)
             

@@ -17,7 +17,7 @@ struct MainTabView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             TabView(selection: $selectedTab) {
-                Text("Calendar")
+                CalendarView()
                     .tag(Tab.calendar)
                 
                 Text("History")

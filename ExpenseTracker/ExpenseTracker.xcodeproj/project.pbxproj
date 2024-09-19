@@ -14,6 +14,7 @@
 		2FBFAF282C9893480045B8C4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF272C9893480045B8C4 /* MainTabView.swift */; };
 		2FBFAF2A2C9A12E40045B8C4 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF292C9A12E40045B8C4 /* CustomTabBarView.swift */; };
 		2FBFAF2C2C9A130E0045B8C4 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF2B2C9A130E0045B8C4 /* Tab.swift */; };
+		2FBFAF2E2C9AF2AF0045B8C4 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFAF2D2C9AF2AF0045B8C4 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2FBFAF272C9893480045B8C4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		2FBFAF292C9A12E40045B8C4 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		2FBFAF2B2C9A130E0045B8C4 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		2FBFAF2D2C9AF2AF0045B8C4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				2FBFAF192C9892D30045B8C4 /* ExpenseTrackerApp.swift */,
 				2FBFAF1B2C9892D30045B8C4 /* ContentView.swift */,
+				2FBFAF2D2C9AF2AF0045B8C4 /* CalendarView.swift */,
 				2FBFAF272C9893480045B8C4 /* MainTabView.swift */,
 				2FBFAF292C9A12E40045B8C4 /* CustomTabBarView.swift */,
 				2FBFAF2B2C9A130E0045B8C4 /* Tab.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				2FBFAF1C2C9892D30045B8C4 /* ContentView.swift in Sources */,
 				2FBFAF1A2C9892D30045B8C4 /* ExpenseTrackerApp.swift in Sources */,
+				2FBFAF2E2C9AF2AF0045B8C4 /* CalendarView.swift in Sources */,
 				2FBFAF2C2C9A130E0045B8C4 /* Tab.swift in Sources */,
 				2FBFAF282C9893480045B8C4 /* MainTabView.swift in Sources */,
 				2FBFAF2A2C9A12E40045B8C4 /* CustomTabBarView.swift in Sources */,
