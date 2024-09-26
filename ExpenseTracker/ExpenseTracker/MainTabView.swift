@@ -29,7 +29,7 @@ struct MainTabView: View {
                 Text("Search")
                     .tag(Tab.search)
                 
-                Text("Profile")
+                UserProfileView()
                     .tag(Tab.profile)
             }
             CustomTabBarView(currentTab: $selectedTab)
