@@ -32,6 +32,7 @@ struct MainTabView: View {
                 UserProfileView()
                     .tag(Tab.profile)
             }
+            
             CustomTabBarView(currentTab: $selectedTab)
         }
     }
