@@ -14,6 +14,8 @@ struct CalendarView: View {
     @State private var days: [Date] = []
     
     var body: some View {
+        NavigationStack {
+        /*
         HStack {
             Text("\(Date.now.formatted())")
             
@@ -52,27 +54,17 @@ struct CalendarView: View {
         .onChange(of: date) {
             days = date.calendarDisplayDays
         }
+        */
         
-        List {
-            Section("September 2024") {
-                Text("Hello World")
-                Text("Hello World")
-                Text("Hello World")
-            }
-                
-            Section("August 2024") {
-                Text("Hello World")
-                Text("Hello World")
-            }
-            
-            Section("July 2024") {
-                Text("Hello World")
-                Text("Hello World")
-            }
-            
-            Section("June 2024") {
-                Text("Hello World")
-                Text("Hello World")
+        
+            List {
+                Section("September 2024") {
+                    ForEach(0 ..< 9, id: \.self) { cell in
+                        NavigationLink(destination: ExpenseDetailView(), label: {
+                            ListCell()
+                        })
+                    }
+                }
             }
         }
         
